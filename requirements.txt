@@ -25,6 +25,9 @@ sortedcontainers==2.4.0
 soupsieve==2.6
 trio==0.29.0
 trio-websocket==0.12.1
+types-beautifulsoup4==4.12.0.20250204
+types-html5lib==1.1.11.20241018
+types-requests==2.32.0.20241016
 typing_extensions==4.12.2
 tzdata==2025.1
 urllib3==2.3.0

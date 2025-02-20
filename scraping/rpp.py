@@ -34,8 +34,9 @@ class RPPScraping:
                 # location = article.find("h3").get_text()
                 title = article.find("h2").find("a")
                 url = title.get("href")
-                redactor = article.find("span").get_text().strip()
-                # fecha = article.find("time").get_text()
+                redactor = (
+                    article.find("span").get_text().strip()
+                )  # fecha = article.find("time").get_text()
                 data.append(
                     {
                         "title": title.get_text().strip(),
